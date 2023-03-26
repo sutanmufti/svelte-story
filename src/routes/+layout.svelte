@@ -29,7 +29,10 @@
     </style>
 
 </svelte:head>
+{#if pageCount != 1}
 <NavigateButton position='left' symbol='<' bind:page={pageCount} on:buttonClicked={previousPage}/>
+
+{/if}
 <NavigateButton position='right' bind:page={pageCount} on:buttonClicked={nextPage}/>
 
 <div id='content'>
