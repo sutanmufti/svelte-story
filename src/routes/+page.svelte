@@ -1,7 +1,6 @@
 
 <script lang='ts'>
     import { page } from "./store";
-    import Test from "../Components/Test.svelte";
     import Page1 from "../Components/Page1.svelte";
     import Page2 from "../Components/Page2.svelte";
     import Page3 from "../Components/Page3.svelte";
